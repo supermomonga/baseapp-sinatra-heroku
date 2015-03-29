@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.1.2'
+ruby '2.2.1'
 
 gem 'sinatra'
 gem 'unicorn'
@@ -15,9 +15,9 @@ gem 'coffee-script'
 # gem 'newrelic_rpm'
 # gem 'redis'
 # gem 'mongo'
-gem 'data_mapper'
-gem 'dm-sqlite-adapter', group: :development
-gem 'dm-postgres-adapter', group: :production
+# gem 'data_mapper'
+# gem 'dm-sqlite-adapter', group: :development
+# gem 'dm-postgres-adapter', group: :production
 
 ## https://github.com/shtirlic/sinatra-jsonp
 # gem 'sinatra-jsonp'
@@ -29,8 +29,4 @@ group :development do
   gem 'rspec'
   gem 'guard-rspec', require: false
   gem 'pry'
-end
-
-group :tasks do
-  gem 'dotenv'
 end
